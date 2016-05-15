@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30C179EA1CE85F0C00ADF2B1 /* NumberConverterCPP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30C179E61CE85F0C00ADF2B1 /* NumberConverterCPP.cpp */; };
+		30C179EB1CE85F0C00ADF2B1 /* NumberConverterCPPWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 30C179E91CE85F0C00ADF2B1 /* NumberConverterCPPWrapper.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		30C179D21CE85E4C00ADF2B1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		30C179D41CE85E4C00ADF2B1 /* libNumberCPPConverter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNumberCPPConverter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C179E61CE85F0C00ADF2B1 /* NumberConverterCPP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NumberConverterCPP.cpp; path = NumberConverterCPPCore/NumberConverterCPP.cpp; sourceTree = SOURCE_ROOT; };
+		30C179E71CE85F0C00ADF2B1 /* NumberConverterCPP.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = NumberConverterCPP.hpp; path = NumberConverterCPPCore/NumberConverterCPP.hpp; sourceTree = SOURCE_ROOT; };
+		30C179E81CE85F0C00ADF2B1 /* NumberConverterCPPWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NumberConverterCPPWrapper.h; path = NumberConverterCPPCore/NumberConverterCPPWrapper.h; sourceTree = SOURCE_ROOT; };
+		30C179E91CE85F0C00ADF2B1 /* NumberConverterCPPWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = NumberConverterCPPWrapper.mm; path = NumberConverterCPPCore/NumberConverterCPPWrapper.mm; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30C179D11CE85E4C00ADF2B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30C179CB1CE85E4C00ADF2B1 = {
+			isa = PBXGroup;
+			children = (
+				30C179D61CE85E4C00ADF2B1 /* NumberConverterCPPCore */,
+				30C179D51CE85E4C00ADF2B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30C179D51CE85E4C00ADF2B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30C179D41CE85E4C00ADF2B1 /* libNumberCPPConverter.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30C179D61CE85E4C00ADF2B1 /* NumberConverterCPPCore */ = {
+			isa = PBXGroup;
+			children = (
+				30C179E61CE85F0C00ADF2B1 /* NumberConverterCPP.cpp */,
+				30C179E71CE85F0C00ADF2B1 /* NumberConverterCPP.hpp */,
+				30C179E81CE85F0C00ADF2B1 /* NumberConverterCPPWrapper.h */,
+				30C179E91CE85F0C00ADF2B1 /* NumberConverterCPPWrapper.mm */,
+			);
+			name = NumberConverterCPPCore;
+			path = NumberCPPConverter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30C179D31CE85E4C00ADF2B1 /* NumberCPPConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C179DD1CE85E4C00ADF2B1 /* Build configuration list for PBXNativeTarget "NumberCPPConverter" */;
+			buildPhases = (
+				30C179D01CE85E4C00ADF2B1 /* Sources */,
+				30C179D11CE85E4C00ADF2B1 /* Frameworks */,
+				30C179D21CE85E4C00ADF2B1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumberCPPConverter;
+			productName = NumberCPPConverter;
+			productReference = 30C179D41CE85E4C00ADF2B1 /* libNumberCPPConverter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30C179CC1CE85E4C00ADF2B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Teller.Vlad;
+				TargetAttributes = {
+					30C179D31CE85E4C00ADF2B1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 30C179CF1CE85E4C00ADF2B1 /* Build configuration list for PBXProject "NumberConverterCPPCore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30C179CB1CE85E4C00ADF2B1;
+			productRefGroup = 30C179D51CE85E4C00ADF2B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30C179D31CE85E4C00ADF2B1 /* NumberCPPConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30C179D01CE85E4C00ADF2B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C179EA1CE85F0C00ADF2B1 /* NumberConverterCPP.cpp in Sources */,
+				30C179EB1CE85F0C00ADF2B1 /* NumberConverterCPPWrapper.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		30C179DB1CE85E4C00ADF2B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30C179DC1CE85E4C00ADF2B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30C179DE1CE85E4C00ADF2B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		30C179DF1CE85E4C00ADF2B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30C179CF1CE85E4C00ADF2B1 /* Build configuration list for PBXProject "NumberConverterCPPCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C179DB1CE85E4C00ADF2B1 /* Debug */,
+				30C179DC1CE85E4C00ADF2B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30C179DD1CE85E4C00ADF2B1 /* Build configuration list for PBXNativeTarget "NumberCPPConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C179DE1CE85E4C00ADF2B1 /* Debug */,
+				30C179DF1CE85E4C00ADF2B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30C179CC1CE85E4C00ADF2B1 /* Project object */;
+}

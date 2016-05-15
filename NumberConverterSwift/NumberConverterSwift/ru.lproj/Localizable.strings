@@ -1,0 +1,9 @@
+/* 
+  Localized.strings
+  NumberConverterSwift
+
+  Created by Teller.Vlad on 15.05.16.
+  Copyright © 2016 Teller.Vlad. All rights reserved.
+*/
+
+WRONG_NUMBER = "Это неверное число. Попробуйте ввести снова!";
